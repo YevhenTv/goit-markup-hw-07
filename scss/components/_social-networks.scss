@@ -1,0 +1,63 @@
+
+.team-social__links {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #afb1b8;
+    transition-property: color, background-color, fill;
+    transition-duration: 250ms;
+    Transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        transition-property: color;
+        transition-duration: 250ms;
+        Transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:hover .team__icons,
+    &:focus .team__icons {
+        fill: #FFFFFF;
+    }
+}
+
+.team__icons {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    Transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.footer-social__links {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff10;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    Transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
+}
+
+
+.footer__icons {
+    width: 44px;
+    height: 44px;
+    fill: #ffffff;
+    padding: 12px;
+
+    &:hover,
+    &:focus:focus {
+    fill: #ffffff;
+    }
+}
